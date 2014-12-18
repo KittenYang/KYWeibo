@@ -1,0 +1,36 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreText/CoreText.h>
+#import "CONSTS.h"
+#import "WXHLGlobalUICommon.h"
+#import "UIViewExt.h"
+#import "WeiboSDK.h"
+#import "UIView+Extra.h"
+
+//获取设备的物理高度
+#define ScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+//获取设备的物理宽度
+#define ScreenWidth   [UIScreen mainScreen].bounds.size.width
+
+
+//首页点击链接
+#define kCellContentView 101
+//详细页点击链接
+#define kModalView 100
+
+#endif

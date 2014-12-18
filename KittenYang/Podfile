@@ -1,0 +1,4 @@
+
+pod 'MBProgressHUD', '~> 0.8'
+pod 'CRNavigationController'
+pod "ZFDragableModalTransition"

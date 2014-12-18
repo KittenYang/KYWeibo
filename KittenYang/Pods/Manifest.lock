@@ -1,0 +1,16 @@
+PODS:
+  - CRNavigationController (1.1)
+  - MBProgressHUD (0.9)
+  - ZFDragableModalTransition (0.2)
+
+DEPENDENCIES:
+  - CRNavigationController
+  - MBProgressHUD (~> 0.8)
+  - ZFDragableModalTransition
+
+SPEC CHECKSUMS:
+  CRNavigationController: e6f95ddaff76444a7083d546d5b9f08f915c6073
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  ZFDragableModalTransition: 734279090d537b1f701b6efdccd41b0f78503de9
+
+COCOAPODS: 0.33.1

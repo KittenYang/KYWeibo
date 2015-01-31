@@ -100,7 +100,6 @@
 //    UIView *selectedBackgroundView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 0)];
 //    selectedBackgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"statusdetail_cell_sepatator.png"]];
 //    self.selectedBackgroundView = selectedBackgroundView;
-
     
 }
 

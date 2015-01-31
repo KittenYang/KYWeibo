@@ -24,7 +24,6 @@
 - (void)_initView{
 
     headerLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, -80, ScreenWidth, 80)];
-    CGPoint point =  headerLabel.layer.anchorPoint;
     headerLabel.backgroundColor = [UIColor clearColor];
     headerLabel.text = @"继续下拉关闭";
     headerLabel.font = [UIFont systemFontOfSize:16.0f];

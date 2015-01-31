@@ -33,7 +33,6 @@
     self.statuses_count = [dataDic objectForKey:@"statuses_count"];
     self.favourites_count = [dataDic objectForKey:@"favourites_count"];
     self.verified = [dataDic objectForKey:@"verified"];
-    
 }
 
 - (void)setAttributes:(NSDictionary *)dataDic{

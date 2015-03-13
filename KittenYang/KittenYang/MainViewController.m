@@ -161,6 +161,7 @@
 }
 
 - (void)timerAction:(NSTimer *)timer{
+    
 
     [WBHttpRequest requestWithAccessToken:[self getToken] url:WB_unRead httpMethod:@"GET" params:nil delegate:self withTag:@"unRead"];
 }

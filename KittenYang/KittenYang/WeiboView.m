@@ -120,7 +120,7 @@
 }
 
 //layoutSubviews 展示数据、设置子视图布局
-//layoutSubviews  可能会被调用多次，所以不能在这里进行正则表达式的解析
+//layoutSubviews 可能会被调用多次，所以不能在这里进行正则表达式的解析
 - (void)layoutSubviews{
     [super layoutSubviews];
     
@@ -203,8 +203,6 @@
             }else{
                 _image.hidden = YES;
             }
-
-            
         }
     }
     
@@ -295,6 +293,8 @@
     return height;
 }
 
+
+
 +(float)getFontSize:(BOOL)isDetail isRepost:(BOOL)isRepost{
     float fontSize = 14.0f;
     if (!isDetail && !isRepost) {
@@ -306,8 +306,7 @@
     }else if (isDetail && !isRepost){
         return DETAIL_FONT;
     }
-    
-    
+
     return fontSize;
     
 }

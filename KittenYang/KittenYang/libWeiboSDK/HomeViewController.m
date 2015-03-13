@@ -445,10 +445,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)viewDidDisappear:(BOOL)animated{
-    UIButton *bt = [self.tabBarController.tabBar.subviews objectAtIndex:6];
-    bt.selected = NO;
-}
+//- (void)viewDidDisappear:(BOOL)animated{
+//    UIButton *bt = [self.tabBarController.tabBar.subviews objectAtIndex:6];
+//    bt.selected = NO;
+//}
 
 -(void)viewWillAppear:(BOOL)animated{
     self.tabBarController.tabBar.hidden = NO;

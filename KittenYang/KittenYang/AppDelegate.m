@@ -25,21 +25,21 @@
     [WeiboSDK enableDebugMode:YES];
     [WeiboSDK registerApp:kAppKey];
     
-    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor blackColor];
-    [self.window makeKeyAndVisible];
-    
-    
-    _mainCtrl = [[MainViewController alloc]init];
-    LeftViewController  * leftCtrl  = [[LeftViewController alloc]init];
-    RightViewController * rightCtrl = [[RightViewController alloc]init];
-    
-    _menu = [[DDMenuController alloc]initWithRootViewController:_mainCtrl];
-    _menu.leftViewController  = leftCtrl;
-    _menu.rightViewController = rightCtrl;
-    
-    self.window.rootViewController = _menu;
+//    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window.backgroundColor = [UIColor blackColor];
+//    [self.window makeKeyAndVisible];
+//    
+//    
+//    _mainCtrl = [[MainViewController alloc]init];
+//    LeftViewController  * leftCtrl  = [[LeftViewController alloc]init];
+//    RightViewController * rightCtrl = [[RightViewController alloc]init];
+//    
+//    _menu = [[DDMenuController alloc]initWithRootViewController:_mainCtrl];
+//    _menu.leftViewController  = leftCtrl;
+//    _menu.rightViewController = rightCtrl;
+//    
+//    self.window.rootViewController = _menu;
     
     
 

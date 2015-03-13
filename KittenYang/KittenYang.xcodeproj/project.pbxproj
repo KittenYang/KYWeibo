@@ -13,7 +13,6 @@
 		5F215D5E192F408B00DAFD22 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F215D5B192F408B00DAFD22 /* libWeiboSDK.a */; };
 		5F215D5F192F408B00DAFD22 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F215D5C192F408B00DAFD22 /* WeiboSDK.bundle */; };
 		5F215D63192F40E000DAFD22 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F215D61192F40E000DAFD22 /* HomeViewController.m */; };
-		5F215D64192F40E000DAFD22 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F215D62192F40E000DAFD22 /* HomeViewController.xib */; };
 		5F215D69192F415600DAFD22 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F215D67192F415600DAFD22 /* MessageViewController.m */; };
 		5F215D6A192F415600DAFD22 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F215D68192F415600DAFD22 /* MessageViewController.xib */; };
 		5F215D6E192F416D00DAFD22 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F215D6C192F416D00DAFD22 /* ProfileViewController.m */; };
@@ -497,6 +496,7 @@
 		5F26C13219D802DA00C79443 /* WebModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F26C13019D802DA00C79443 /* WebModalViewController.xib */; };
 		5F26C13619DCEF8900C79443 /* topicModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F26C13419DCEF8900C79443 /* topicModalViewController.m */; };
 		5F26C13719DCEF8900C79443 /* topicModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F26C13519DCEF8900C79443 /* topicModalViewController.xib */; };
+		5F28898B1AAF5A0900E64BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F28898A1AAF5A0900E64BAD /* Main.storyboard */; };
 		5F2C475A199C6A25004B64DA /* BrowseModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C4758199C6A25004B64DA /* BrowseModeController.m */; };
 		5F2C475B199C6A25004B64DA /* BrowseModeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2C4759199C6A25004B64DA /* BrowseModeController.xib */; };
 		5F3E819419E92D5E0009D0E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3E819319E92D5E0009D0E8 /* CoreLocation.framework */; };
@@ -614,7 +614,6 @@
 		5F215D5D192F408B00DAFD22 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
 		5F215D60192F40E000DAFD22 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = libWeiboSDK/HomeViewController.h; sourceTree = "<group>"; };
 		5F215D61192F40E000DAFD22 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = libWeiboSDK/HomeViewController.m; sourceTree = "<group>"; };
-		5F215D62192F40E000DAFD22 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = libWeiboSDK/HomeViewController.xib; sourceTree = "<group>"; };
 		5F215D66192F415600DAFD22 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
 		5F215D67192F415600DAFD22 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		5F215D68192F415600DAFD22 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
@@ -1113,6 +1112,7 @@
 		5F26C13319DCEF8900C79443 /* topicModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topicModalViewController.h; sourceTree = "<group>"; };
 		5F26C13419DCEF8900C79443 /* topicModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topicModalViewController.m; sourceTree = "<group>"; };
 		5F26C13519DCEF8900C79443 /* topicModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = topicModalViewController.xib; sourceTree = "<group>"; };
+		5F28898A1AAF5A0900E64BAD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5F2C4757199C6A25004B64DA /* BrowseModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseModeController.h; sourceTree = "<group>"; };
 		5F2C4758199C6A25004B64DA /* BrowseModeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseModeController.m; sourceTree = "<group>"; };
 		5F2C4759199C6A25004B64DA /* BrowseModeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowseModeController.xib; sourceTree = "<group>"; };
@@ -1323,7 +1323,6 @@
 			children = (
 				5F215D60192F40E000DAFD22 /* HomeViewController.h */,
 				5F215D61192F40E000DAFD22 /* HomeViewController.m */,
-				5F215D62192F40E000DAFD22 /* HomeViewController.xib */,
 				5F6B7F1B197E2AEA00137F17 /* WeiboCell.h */,
 				5F6B7F1C197E2AEA00137F17 /* WeiboCell.m */,
 				5F6B7F1E197E2B2600137F17 /* WeiboView.h */,
@@ -2032,6 +2031,7 @@
 				5F5E4268191796F8004B6476 /* AppDelegate.m */,
 				5F215D55192F3FE200DAFD22 /* MainViewController.h */,
 				5F215D56192F3FE200DAFD22 /* MainViewController.m */,
+				5F28898A1AAF5A0900E64BAD /* Main.storyboard */,
 				5F4375AF19DFFB7F00CFE688 /* SendViewController */,
 				5F215D96192F469900DAFD22 /* Theme */,
 				5F215D65192F40F000DAFD22 /* Home */,
@@ -2412,6 +2412,7 @@
 				5F216108192F49F000DAFD22 /* page_image_loading.png in Resources */,
 				5F21605D192F49F000DAFD22 /* 063@2x.png in Resources */,
 				5F215FE6192F49F000DAFD22 /* 024.gif in Resources */,
+				5F28898B1AAF5A0900E64BAD /* Main.storyboard in Resources */,
 				5F215F99192F49F000DAFD22 /* compose_savebutton_background_highlighted@2x.png in Resources */,
 				5F21604A192F49F000DAFD22 /* 057.png in Resources */,
 				5F2160F9192F49F000DAFD22 /* navigationbar_notice@2x.png in Resources */,
@@ -2726,7 +2727,6 @@
 				5F216059192F49F000DAFD22 /* 062.png in Resources */,
 				5F216051192F49F000DAFD22 /* 059@2x.png in Resources */,
 				5F2160D9192F49F000DAFD22 /* emoticon_keyboard_background.png in Resources */,
-				5F215D64192F40E000DAFD22 /* HomeViewController.xib in Resources */,
 				5F2160A5192F49F000DAFD22 /* 087@2x.png in Resources */,
 				5F2160E3192F49F000DAFD22 /* icon_detail.png in Resources */,
 				5F215FA2192F49F000DAFD22 /* discover_default@2x.png in Resources */,
